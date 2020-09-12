@@ -3,6 +3,7 @@ require 'pry'
 require 'faraday'
 require './opendata_service.rb'
 
+class GrowCalls < Sinatra::Base
   get '/' do
     'Grow Calls API'
   end
@@ -23,3 +24,4 @@ require './opendata_service.rb'
     ph_data = ph_json[:properties][:layers][0][:depths][1][:values][:mean].to_f / 10
     ph_data
   end
+end
