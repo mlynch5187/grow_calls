@@ -3,7 +3,6 @@ require 'pry'
 require 'faraday'
 require './opendata_service.rb'
 
-# class GrowCalls < Sinatra::Base
   get '/' do
     'Grow Calls API'
   end
