@@ -7,9 +7,11 @@ gem 'rake'
 
 group :development, :test do
   gem 'dotenv'
+  gem 'rspec'
+  gem 'capybara'
+  gem 'launchy'
+  gem 'simplecov'
   gem 'pry'
   gem 'rack-test'
-  gem 'rspec'
-  gem 'simplecov'
   gem 'webmock'
 end
