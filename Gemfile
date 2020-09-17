@@ -7,7 +7,6 @@ gem 'rake'
 
 group :development, :test do
   gem 'dotenv'
-  gem 'pry'
   gem 'rack-test'
   gem 'rspec'
   gem 'simplecov'

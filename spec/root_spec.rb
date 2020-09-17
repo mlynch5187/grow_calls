@@ -30,7 +30,6 @@ RSpec.describe 'root page page' do
 
   it 'can load the root path' do
     get '/'
-      require "pry"; binding.pry
 
     expect(last_response.body).to include('Grow Calls API')
   end
